@@ -59,9 +59,9 @@ background: lightgray;
      justify-content: center;
      align-items: flex-end;
 }
-@media screen and (max-width:400) {
+@media screen and (max-width:400px) {
      #target {
-          witdh: 100px;
-          height: 100px;
+          width: 150px;
+          height: 150px;
      }
 }
