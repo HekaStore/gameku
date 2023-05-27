@@ -4,14 +4,13 @@
      box-sizing: border-box;
 }
 #target {
-     padding: 50px;
      transition: .3s;
      border-radius: 50%;
      animation: shadow 5s infinite;
 }
 @keyframes shadow {
      from {
-          transform: rotate(deg);
+          transform: rotate(0deg);
      }
      to {
           transform: rotate(360deg);
