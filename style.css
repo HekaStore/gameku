@@ -1,0 +1,62 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+#target {
+     padding: 50px;
+     transition: .3s;
+     border-radius: 50%;
+     animation: shadow 5s infinite;
+}
+@keyframes shadow {
+     from {
+          transform: rotate(deg);
+     }
+     to {
+          transform: rotate(360deg);
+     }
+     
+}
+.tombol {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     margin-bottom: 10px;
+}
+.tombol button {
+     padding: 5px;
+     background-color: white;
+     border: 2px solid;
+     margin-bottom: 10px;
+     cursor: pointer;
+     transition: .3s;
+     border-radius: 10px;
+}
+.tombol div button {
+     padding: 5px;
+     background-color: white;
+     border: 2px solid;
+     cursor: pointer;
+     transition: .3s;
+     border-radius: 10px;
+}
+.tombol button:hover {
+     background: lightgray;
+}
+.tombol div button:hover {
+background: lightgray;
+}   
+.tombol div button:active {
+     transform: translateY(4px);
+}
+.tombol button:active {
+     transform: translateY(4px);
+}
+.WADAH-TOMBOL {
+     height: 100vh;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: flex-end;
+}
